@@ -1,6 +1,29 @@
-/* 16px == 1rem */
-html { font-size: 16px; }
 
+img {
+  width: 25%
+}
+aside {
+  height: 10rem;
+  background-color : fuchsia;
+  text-align: center;
+  width: 25%;
+  margin: auto;
+}
+article {
+  padding: 5rem; 
+  background-color: yellow; 
+  width: 50%;
+  margin: auto;
+}
+
+aside p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* 16px == 1rem */
+/*html { font-size: 16px; }*/
+
+/*
 img {
   width: 25%
 }
@@ -27,7 +50,7 @@ img {
   background-color: yellow;
 }
 
-/* nested selector -- selects <p> inside .document-history */
+ nested selector -- selects <p> inside .document-history 
 .document-history p {
   width: 50%;
 }
@@ -39,7 +62,10 @@ img {
 #bill-of-rights {
   font-style: italic;
 }
+*/
 
+/*
 .highlight {
   background-color: salmon;
 }
+*/
